@@ -1,0 +1,345 @@
+/* font-family: "Inter", sans-serif; 
+font-family: "Montserrat", sans-serif; 
+font-family: "Roboto Mono", monospace; 
+font-family: "Prata", serif; 
+font-family: "Poppins", sans-serif; */
+
+#imagembg{
+    background-image: url(imagens/bg.png);
+    overflow: hidden;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif; 
+}
+.container.home-page{
+    justify-content: normal;
+    flex-direction: column;
+    background-color: #fcfcfc;
+    overflow-y:auto ;
+}
+#conceito{
+    color: white;
+    left: 84px;
+    font-size: 60px;
+    font-family: Poppins;
+    font-size: 43.31px;
+    font-weight: 300;
+    line-height: 64.97px;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+#maisvenda{
+    color: white;
+    width: 398px;
+    height: 70.73px;
+    top: 257.13px;
+    left: 84px;
+    font-family: Poppins;
+    font-size: 46.78px;
+    font-weight: 400;
+    line-height: 70.17px;
+    text-align: center;
+}
+
+.login{
+    border: 1.5px solid white;
+    border-radius: 14px;
+    height: 562px;
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 395px;
+    background: linear-gradient(#000000 0%,#00000056 100%);
+    backdrop-filter: blur(10px);
+}
+.infoLogin{
+    display: flex;
+    flex-direction: column;
+}
+.infoLogin form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    align-items: center;
+}
+#email,#password,#password-confirme,#password-register{
+    background-color: transparent;
+    border-width: 0 0 2px 0;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 20px;
+    padding-top: 20px;
+    width: 323px;
+    color: white;
+}
+#email::placeholder,#password::placeholder,#password-confirme::placeholder,#password-register::placeholder{
+    color: white;
+}
+#entrar,#register-user{
+    background-color: rgba(21, 138, 138, 1);
+    border: 5px;
+    border-radius: 4px;
+    width: 323px;
+    height: 43px;
+    margin-top: 30px;
+    color: white;
+}
+#esquecisenha{
+    width: 323px;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
+
+.fazerconta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h3{
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+#registrar{
+    color:  rgba(21, 138, 138, 1);
+    width: 63px;
+    height: 20px;
+    margin-right: 60px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    gap: 10px;
+}
+
+
+
+#loginFacebook,#loginGoogle{
+    background-color:#ffffff35;
+    width: 230px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+#Google,#Facebook{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-left: 1px solid white;
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+}
+#loginGoogle i,#loginFacebook i {
+    color: #2b75ff;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+#olho{
+    position: relative;
+    color: white;
+    right: -145px;
+    top: -20px;
+    font-size: 12px;
+
+}
+
+.navbar{
+    background-color:  #158a8a;
+    width: 100%;
+    height: 53px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 99;
+    border-bottom: 1px soli #eeeeee;
+}
+#profile{
+    position: relative;
+    left: 60px;
+    width: 44px;
+    height: 44px;
+}
+.navbar .btnmenu{
+    position: relative;
+    right: 60px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.navbar .line{
+    background-color: #eeeeee;
+    width: 22px;
+    height: 3px;
+}
+#budega{
+    width: 103px;
+    height: 33px;
+
+}
+#pesquisar{
+    margin-right: 250px;
+}
+#search-item{
+    width: 350px;
+    height: 30px;
+    border-radius: 3px;
+    border: 0.2px solid #eeeeee;
+
+}
+.menu{
+    display: flex;
+    gap: 100px;
+    color: white;
+    list-style: none;
+    margin-right: 50px;
+}
+#lupa{
+    position: relative;
+    left: -35px;
+    color: #a0a0a0;
+}
+header{
+    width: 100%;
+    height: 250px;
+    background-image: url(imagens/bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 0;
+    padding-top: 0;
+}
+.header-title{
+    margin-right: 250px;
+    color: white;
+    text-align: end;
+}
+.header-title h3{
+    font-size: 20px;
+}
+#color-green{
+    background: rgba(19, 128, 128, 1);    
+    display: block;
+    width: 133px;
+    height: 25px;
+    top: 225px;
+    left: 902px;
+    border-radius: 18px;
+    margin-left: 50px;
+}
+.containerProducts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+main{
+    padding: 30px;
+    width: 60%;
+    color: #000000;
+    font-family: "Poppins",sans-serif;
+
+}
+.main-title h2{
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+    
+}
+.main-title h3{
+    font-size: 12px;
+    margin: 0;
+    font-weight: 300;
+    color: #000000;
+}
+.container-cards{
+    margin: 20px;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    gap: 30px;
+    flex:calc(100%/6)
+}
+*::-webkit-scrollbar{
+    width: 8px;
+}
+*::-webkit-scrollbar-track{
+    background-color: #138080;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #138080;
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000000;
+}
+
+.produto img{
+    width: 120px;
+    height: 110px;
+}
+.produto h5{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+}
+.produto .pricefavorite{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.produto .pricefavorite h3{
+    margin: 0;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 400;
+}
+.produto .pricefavorite h4{
+    margin: 0;
+    font-size: 10px;
+    font-weight: 200;
+}
+.produto span{
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+

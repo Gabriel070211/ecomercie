@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/ffda9dea03.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Budega-Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Firebase --> 
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+</head>
+
+<body>
+    <div class="container home-page">
+     <nav class="navbar">
+        <div class="btnmenu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <a>
+            <img src="imagens/logo.png" alt="logo Budega" id="budega">
+        </a>
+        <div id="pesquisar">
+            <input type="search" name="search-item" id="search-item">
+            <i class="fa-solid fa-magnifying-glass" id="lupa"></i>
+        </div>
+        <ul class="menu">
+            <li class="menu-item">
+                Favoritos
+            </li>
+            <li class="menu-item">
+                <i class="fa-solid fa-bag-shopping"></i>
+                Sacola
+            </li>
+        </ul>
+
+        <img src="imagens/image1.png" alt="profile" id="profile">
+
+     </nav>
+     <header>
+        <div class="header-title">
+            <h3>Confira nossa</h3>
+            <h1>Newsletter</h1>
+            <span id="color-green"></span>
+        </div>
+     </header>
+     <main>
+        <div class="main-title">
+            <h2>Ofertas especiais</h2>
+            <h3>Os melhores preços</h3>
+        </div>
+        <div class="containerProducts"></div>
+     </main>
+  
+     
+    </div>
+    <script src="scripts/firebase.js"></script>
+    <script src="scripts/produtos.js"></script>
+    <script src="scripts/home.js"></script>
+   
+</body>
+</html>
